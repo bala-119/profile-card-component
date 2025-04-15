@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f2f2f2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background: #2db3b6;
+    width: 100%;
+    max-width: 900px;
+    padding: 60px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card{
+    background: #fff;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-header{
+    height: 100px;
+    position: relative;
+    background-image: url("images/bg-pattern-card.svg");
+}
+
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-body {
+    padding: 60px 20px 20px;
+  }
+
+
+  .card-body h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .card-body h2 span {
+    color: gray;
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 5px;
+  }
+
+  
+.card-body p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .stats strong {
+    font-size: 16px;
+  }
